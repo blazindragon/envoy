@@ -12,8 +12,8 @@ cc_library(
         ":_prefix/include/lightstep_carrier.pb.h",
     ],
     includes = [
-        "_prefix/include",
         "src/c++11",
+        "_prefix/include",
     ],
     visibility = ["//visibility:public"],
     deps = ["@protobuf_bzl//:protobuf"],
